@@ -1,0 +1,5 @@
+height= float(input("Enter your height(m):"))
+weight = int(input("Enter your weight(kg):"))
+bmi= (weight)/(height**2)
+print(bmi)
+print(int(bmi))

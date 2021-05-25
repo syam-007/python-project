@@ -1,26 +1,22 @@
 print("Welcome to Python pizza Deliveries!")
 
 
-size=input("What size pizza do you want? S,M or L:")
-add_pepperoni= input("Do you want pepperoni? Y or N")
-extra_chesses= input("Do you want chesses? Y or N:")
-bill=0
-if size=="S":
-     bill+=15
-elif size=="M":
-     bill+=20
-elif size=="L":
-     bill+=25
-if add_pepperoni=='Y':
-     if size=="S":
-          bill+=2
-     elif size=="M":
-          bill+=3
-     elif size=="L":
-          bill+=3
-if extra_chesses=="Y":
-     bill+=1
-
-print(f"Your final bill {bill}")
+height=int(input("Enter your height:"))
+if height >=120:
+    age=int(input("Enter your age:"))
+    bill=0
+    if age>18:
+        print("You have to pay:$12")
+        bill+=12
+    elif age<12:
+        print("you ahve to pay:$5")
+        bill+=5
+    elif age<=18:
+        print("you have to pay:$7")
+        bill+=7
+photo=input("Do u want photo?y or N?")
+if "Y":
+    bill+=3
+print(f"your total bill {bill}")
 
 

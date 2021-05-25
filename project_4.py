@@ -1,4 +1,4 @@
-print("Welcome to Python pizza Deliverise!")
+print("Welcome to Python pizza Deliveries!")
 
 
 size=input("What size pizza do you want? S,M or L:")
